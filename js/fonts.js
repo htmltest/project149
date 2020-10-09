@@ -32,11 +32,17 @@ if (sessionStorage.fontsLoaded) {
         var Lato700 = new FontFaceObserver('Lato', {
             weight: 'bold'
         });
+        var FiraSans300 = new FontFaceObserver('FiraSans', {
+            weight: '300'
+        });
         var FiraSans400 = new FontFaceObserver('FiraSans', {
             weight: 'normal'
         });
         var FiraSans500 = new FontFaceObserver('FiraSans', {
             weight: '500'
+        });
+        var FiraSans600 = new FontFaceObserver('FiraSans', {
+            weight: '600'
         });
         var FiraSans700 = new FontFaceObserver('FiraSans', {
             weight: '700'
@@ -55,8 +61,10 @@ if (sessionStorage.fontsLoaded) {
             Lato500.load(),
             Lato600.load(),
             Lato700.load(),
+            FiraSans300.load(),
             FiraSans400.load(),
             FiraSans500.load(),
+            FiraSans600.load(),
             FiraSans700.load(),
             FiraSans800.load(),
             FiraSans900.load()
